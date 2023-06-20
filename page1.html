@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Випадковий генератор - Вікторина</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Вікторина</h1>
+    <form id="quiz-form">
+        <label for="participants">Кількість учасників:</label>
+        <input type="number" id="participants" required>
+        <label for="winners">Кількість переможців:</label>
+        <input type="number" id="winners" required>
+        <button type="button" onclick="startQuiz()">Start</button>
+        <div class="body__links">
+            <a class="links__link" href="/index.html"><h3>Стартова сторінка</h3></a>
+            <a class="links__link" href="/page2.html"><h3>Генератор пароля</h3></a>
+        </div>
+    </form>
+    <div id="results"></div>
+    <script src="script.js"></script>
+</body>
+</html>
